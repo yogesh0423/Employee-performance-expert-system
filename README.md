@@ -1,26 +1,30 @@
 # 🧠 Employee Performance Evaluation Expert System
 
-A simple **Expert System** built in Python with **Tkinter GUI** and **SQLite3** database to automate employee performance evaluation based on attendance, task completion, and teamwork.
+This is a **Command-Line Expert System** built in Python using a **rule-based approach** to evaluate employee performance.  
+The system uses parameters such as **attendance**, **tasks completed**, and **teamwork** to categorize employees into performance levels.
 
 ---
 
 ## 🚀 Features
-- GUI-based interface for easy data entry
-- Rule-based evaluation system
-- Add, View, and Delete employee records
-- SQLite database integration
-- Real-time performance result display
+
+- Command-line interface (CLI) for ease of use  
+- Rule-based reasoning to determine employee performance  
+- Local data storage using **SQLite**  
+- Add, view, update, and delete employee records  
+- Simple and lightweight system — ideal for learning Expert Systems in AI  
 
 ---
 
 ## 🧰 Tech Stack
+
 - **Language:** Python 3.x  
-- **Libraries:** Tkinter, SQLite3  
-- **Database:** employee.db  
+- **Database:** SQLite3 (built-in)  
+- **Libraries:** Standard Python libraries (no external dependencies)
 
 ---
 
 ## 🧠 Evaluation Logic
+
 ```python
 if attendance >= 90 and tasks_completed >= 80 and teamwork == "excellent":
     performance = "Outstanding"
